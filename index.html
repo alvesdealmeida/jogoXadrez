@@ -127,6 +127,23 @@
 
         .btn-main { background: var(--gold); color: black; margin-top: 10px; width: 100%; }
         .btn:active { opacity: 0.8; }
+        
+         /* rodapé desenvolvimento */
+        .dev-credit {
+            font-size: 0.8rem;
+            color: var(--gold);
+            opacity: 0.7;
+            text-align: center;
+            margin-top: 20px;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+        }
+        
+        /* Ajuste para o rodapé no jogo */
+        #game-screen .dev-credit {
+            margin-top: auto;
+            padding-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -168,6 +185,7 @@
             <button class="btn" onclick="resetToMenu()">Menu</button>
             <button class="btn" onclick="undoMove()">Desfazer</button>
         </div>
+        <div class="dev-credit">Desenvolvido por Sebastião Alves de Almeida</div>
     </div>
 
 <script>
